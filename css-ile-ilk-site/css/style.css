@@ -1,0 +1,163 @@
+body{
+    margin:0px;
+    padding:0px;
+    overflow-x:hidden;
+}
+/*H Tags Color*/
+h1, h2, h3, h4, h5, h6{
+    color:black;
+}
+/*H Tags Color*/
+/*Font-Size*/
+.fs-size8{
+    font-size: 8px;
+}
+.fs-size10{
+    font-size: 10px;
+}
+.fs-size12{
+    font-size: 12px;
+}
+.fs-size14{
+    font-size: 14px;
+}
+.fs-size16{
+    font-size: 16px;
+}
+.fs-size18{
+    font-size: 18px;
+}
+.fs-size20{
+    font-size: 20px;
+}
+/*Font-Size*/
+
+
+
+/* header and logo started here*/
+
+.header{
+    width: 100%;
+    height: 75px;
+    background: white;
+
+
+}
+
+.logo{
+   margin:25px;
+    
+}
+/* header and logo finished here*/
+/* navbar started here*/
+.navbar{
+    width: 750px;
+    height: 50px;
+    background-color: white;
+    float: right;
+    margin:12px;
+    position: relative;
+}
+ul{
+    vertical-align: middle;
+}
+ul li{
+    float: left;
+    margin: 0px 40px;
+    list-style-type: none;
+}
+ul a{
+
+    text-decoration: none;
+    color: black;
+}
+
+/* navbar finished  here*/
+/*contain started here*/
+
+.slider h2{
+    position:relative;
+    text-align: center;
+    bottom:850px;
+}
+.slider h4{
+
+    position:relative;
+    text-align: center;
+    bottom:900px;
+}
+.button-slider1{
+    position:relative;
+    bottom:500px;
+    border-radius: 10px;
+    background-color: #333333;
+    border:none;
+    padding: 10px;
+    width: 175px;
+    color:white;
+    font-size:13px;
+    font-weight: bold;
+    left:38%;
+
+}
+.button-slider1 a{
+    text-decoration: none;
+}
+.button-slider2{
+    position: relative;
+    bottom:500px;
+    border-radius: 10px;
+    background-color: rgba(244, 244, 244, 0.65);
+    border:none;
+    padding: 10px;
+    width: 175px;
+    color:black;
+    font-size:13px;
+    font-weight: bold;
+    left:39%;
+    opacity: 0.8;
+  
+}
+.button-slider2 a{
+    text-decoration: none;
+}
+/*contain finished here*/
+
+/*footer started here*/
+.footer{
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    background-color:#333333;
+    top: 140%;
+}
+.footer img{
+    position: relative;
+    top:125px;
+
+}
+
+.footer-navbar a{
+    color:white;
+    
+}
+.footer-navbar li{
+    position: relative;
+    float: none;
+    bottom: 50px;
+    list-style-type: none;
+    padding: 10px;
+    margin-left: 45%;
+    margin-right: 45%;
+}
+.map{
+    width: 300px;
+    height: 250px;
+    background-color: #333333;
+    position: relative;
+    float: right;
+    bottom: 275px;
+    margin-right: 20px;
+   
+}
+/*footer finished here*/
